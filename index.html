@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <title>3D iPhone Website</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+</head>
+<body>
+
+    <div id="app">
+        <main>
+
+            <nav>
+                <i id="logo" class="nav__icon ri-apple-fill"></i>
+                
+                <ul class="nav__menu">
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+
+                <div class="other__items">
+                    <i class="nav__icon ri-search-line"></i>
+                    <i class="nav__icon ri-shopping-bag-line"></i>
+                    <i id="open__menu" class="nav__icon ri-menu-line"></i>
+                </div>
+            </nav>
+
+            <section class="hero">
+                <div class="hero__container">
+                    <h2 class="hero__title">iPhone 15 Pro</h2>
+                    
+                    <!-- Hero Video -->
+                    <div class="hero__video">
+                        <video muted autoplay>
+                            <source src="/assets/videos/hero.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <!-- call to action -->
+                    <div class="cta">
+                        <a href="#highlights">Buy</a>
+                        <p class="price">From $199/month or $999</p>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="highlights" id="highlights">
+                <div class="header">
+                    <h1 class="highlights__title">Get the highlights.</h1>
+
+                    <div class="highlights__links">
+                        <a href="#">
+                            <p>Watch the film</p>
+                            <i class="ri-play-circle-line"></i>
+                        </a>
+                        <a href="#">
+                            <p>Watch the event</p>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="video__slider_area swiper">
+                    <div class="video__slider_container swiper-wrapper"></div>
+
+                    <div class="video__slider_controls">
+                        <div class="swiper-pagination"></div>
+                        <div class="autoplay-progress">
+                            <svg viewBox="0 0 48 48">
+                                <circle cx="24" cy="24" r="20"></circle>
+                            </svg>
+                            <span></span>
+                        </div>
+                        <i id="restartBtn" class="ri-history-line"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="closer__look">
+                <div class="header"><h1 class="closer__look__title">Take a closer look.</h1></div>
+
+                <div class="screen">
+                    <div class="phone__area">
+                        <div class="loader">
+                            <p>Loading 3D Phone <span class="line"></span> <span class="progress-count">0</span></p>
+                            <div class="progress"><span class="progress-fill"></span></div>
+                        </div>
+                        
+                        <canvas id="world"></canvas>
+                    </div>
+
+                    <div class="phone__controls">
+                        <p class="phone__info"></p>
+
+                        <div class="wrapper">
+                            <div class="colors"></div>
+
+                            <div class="sizes"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="features__wrapper">
+                    <h1 class="features__title">Explore the full story</h1>
+                    
+                    <h2 class="heading">
+                        iPhone. <br>
+                        Forged in titanium.
+                    </h2>
+
+                    <div class="media">
+                        <div class="video__holder">
+                            <video muted autoplay loop>
+                                <source src="/assets/videos/explore.mp4" type="video/mp4">
+                            </video>
+                        </div>
+
+                        <div class="images">
+                            <div class="image__holder">
+                                <img src="/assets/images/explore1.jpg" alt="Img...">
+                            </div>
+                            
+                            <div class="image__holder">
+                                <img src="/assets/images/explore2.jpg" alt="Img...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details">
+                        <div class="col">
+                            <p class="paragraph">
+                                iPhone 15 Pro <span class="special">the first iPhone feature an aerospace-grade titanium design. </span>
+                                using the same alloy that spacecraft for missions to Mars. 
+                            </p>
+                        </div>
+
+                        <div class="col">
+                            <p class="paragraph">
+                                Titanium has one of the best strength-to-weight ratios of any metal, making these our 
+                                <span class="special">lightest Pro models ever.</span> You'll notice the difference the moment you pick one up.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how_it_works">
+                <div class="header">
+                    <img src="/assets/images/chip.jpeg" alt="Chip..." id="chip">
+
+                    <div class="chip__info">
+                        <h1>
+                            A17 Pro Chip. <br>
+                            A monster win for gaming.
+                        </h1>
+
+                        <p class="paragraph">
+                            It's here. the biggest redesign in the history of Apple GPUs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="frame__container">
+                    <img src="/assets/images/frame.png" class="video__frame">
+
+                    <div class="video__holder">
+                        <video muted autoplay loop>
+                            <source src="/assets/videos/frame.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <p>Honkai: Star Rail</p>
+                </div>
+
+                <div class="general__info">
+                    <div class="paragraphs">
+                        <p class="paragraph">
+                            A17 Pro is an entirely new class of iPhone chip that delievers our 
+                            <span class="special">best graphics performance by far.</span>
+                        </p>
+                        
+                        <p class="paragraph">
+                            Mobile <span class="special">games will look and feel so immersive.</span> 
+                            with incredibly detailed environments and more realistic characters. And with 
+                            industry-leading speed and efficiency. A17 Pro takes fast and runs with it.
+                        </p>
+                    </div>
+
+                    <div class="GPU__info">
+                        <span>New</span>
+                        <h2>Pro-class GPU</h2>
+                        <span>with 6 cores</span>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="contact">
+                    <p class="paragraph">
+                        More ways to shop: <a href="" class="footer__link">Find an Apple Store</a>
+                        or <a href="" class="footer__link">other retailer</a> near you.
+                    </p>
+                    <p class="paragraph">
+                        Or call 00018-258-120
+                    </p>
+                </div>
+
+                <div class="down">
+                    <p class="copyright paragraph">Copyright &copy; 2025 Apple Inc. All rights reserved.</p>
+
+                    <div class="footer__links">
+                        <!-- Done with js -->
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+
+    <script type="module" src="/src/JS/animations.js"></script>
+    <script type="module" src="/src/JS/main.js"></script>
+    <script type="module" src="/src/JS/swiper.js"></script>
+
+</body>
+</html>
