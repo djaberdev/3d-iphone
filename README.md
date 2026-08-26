@@ -18,7 +18,7 @@
 </p>
 
 <!-- Project Name -->
-<h3 align="center">...</h3>
+<h3 align="center">iPhone 15 Pro — Apple Clone</h3>
 <br />
 
 <!-- Project Type -->
