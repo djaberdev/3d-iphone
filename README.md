@@ -49,7 +49,8 @@
 
 <!-- Real Showcase-->
 ## 🎬&nbsp; Demo & Showcase
-...
+
+https://github.com/user-attachments/assets/8eb5be5b-f3c3-4f8c-9f47-ffab899efeec
 
 <br />
 
