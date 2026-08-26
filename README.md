@@ -30,14 +30,20 @@
 <br />
 
 <!-- Project Overview & Desc.. -->
-## 📝&nbsp; About **...**
-⇨ ...
+## 📝&nbsp; About **Website**
+⇨ Modern 3D iPhone 15 Pro **`Website`** designed to present an **Apple's Real Product** through a clean, responsive and animated interface. Showcasing Phone features and power using `GSAP Animations` & `THREE.JS 3D Effects`. 
 
-◈ `Feature` → ...
+◈ `Fully Responsive` → Ensures flawless Responsiveness across all devices and screen sizes.
 
-◈ `Feature` → ...
+◈ `Stunning Sections` → Hero, Highlights, 3D Phone Showcase, Features, Phone Details, CTA and Contact.
 
-◈ `Feature` → ...
+◈ `Optimized Performance` → Built for fast loading and an optimized experience.
+
+◈ `Trendy GSAP Animations` → Engaged with Award-worthy smooth Animations like: **ScrollTrigger, Page Load, ...**
+
+◈ `Interactive 3D Phone Model` → Take a Closer Look ! &nbsp; Explore the iPhone 15 Pro from every angle with **Real 3D Model** and a Complete functionality where the user can change **Color, Screen and Size**
+
+◈ `Advanced Video Carousel` → Engage users with a unique and interactive video carousel developed using &nbsp;▸ [Swiper.JS](https://swiperjs.com/) ◂&nbsp; for a personalized browsing experience.
 
 <br />
 
