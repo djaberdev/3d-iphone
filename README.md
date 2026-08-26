@@ -49,55 +49,13 @@
 
 <!-- Real Showcase-->
 ## 🎬&nbsp; Demo & Showcase
-
-<details>
-  <summary><strong>Desktop</strong></summary>
-
-  <br />
-
-  <img
-    src="./showcase/desktop.png"
-    width="100%"
-    alt="..."
-  />
-
-</details>
-
-<details>
-  <summary><strong>Tablet</strong></summary>
-
-  <br />
-
-  <img
-    src="./showcase/tablet.png"
-    width="80%"
-    alt="..."
-  />
-
-</details>
-
-<details>
-  <summary><strong>Mobile</strong></summary>
-
-  <br />
-
-  <img
-    src="./showcase/mobile.png"
-    width="40%"
-    alt="..."
-  />
-
-</details>
+...
 
 <br />
 
 <!-- What Learn from that Project -->
 ## 🧠&nbsp; What I Learned 
 
-① `Thing` → ...
+① **`Master Three.js Model's Controling`** → Let me not just integrate Flat 3D Models but rather, Dive deep into Model's Materials & Details which help me building `Interactive 3D Experiences` for example: Change Colors, Sizes, Parts and more... 
 
-② `Thing` → ...
-
-③ `Thing` → ...
-
-④ `Thing` → ...
+② **`Engage Design with 4K Videos`** → By this one, i can add a transparent bg video that makes the Website looks lively without any design crashes !
